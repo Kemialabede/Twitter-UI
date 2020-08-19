@@ -1,0 +1,23 @@
+.follow-button{
+    width: 85px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2;
+    background: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.follow-button:hover{
+    background: #ebf4fa;
+}
+.follow-button-two{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.pad-content{
+    padding: 17px;
+}

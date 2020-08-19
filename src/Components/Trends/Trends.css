@@ -1,0 +1,73 @@
+.setting{
+    width: 26px;
+    height: 26px;
+}
+.trends{
+    width: 96%;
+    height: 430px;
+    border-radius: 15px;
+    background-color:  rgba(246, 248, 250, 0.904);
+    overflow: hidden;
+}
+
+.trend-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 15px;
+    font-size: 19px;
+    color: #14171A;
+    font-weight: 900;
+}
+.trend-content{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.2px solid  rgb(231, 235, 236);;
+    line-height: 20px;
+    padding: 13px;
+}
+.trend-content:hover{
+    background-color: rgba(233, 237, 240, 0.945);
+}
+.trend-show{
+    display: flex;
+    justify-content: space-between;
+    border-top:  0.2px  solid  rgb(231, 235, 236);;
+    line-height: 20px;
+    padding: 10px;
+    
+}
+.trend-show:hover{
+    border-radius: 25px, 25px;
+    background-color: rgba(233, 237, 240, 0.945);
+}
+.trend-inner-link{
+    color: rgba(29,161,242,1.00);
+    text-decoration: none;
+    padding-left: 10px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+.arrow{
+    margin-top: -25px;
+    padding-right: 10px
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.trend-inner-content{
+    align-items: center;
+    padding-left: 10px;
+}
+.trend-inner-paragraph{
+    font-weight: bolder;
+}
+.trend-paragraph{
+    font-size: 13px;
+    color: #657786;
+    font-weight: 450;
+}

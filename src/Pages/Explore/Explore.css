@@ -1,0 +1,141 @@
+/* .side-bar{
+    float: left;
+} */
+.explore{
+    display: flex;
+}
+.search-input{
+    display: flex;
+    width: 44.6%;
+    height: 55px;
+    align-items: center;
+    background: white;
+    background-size: cover;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+}
+.explore-input{
+    position: absolute;
+    top: 17px;
+    width: 430px;
+    height: 20px;
+    outline: none;
+    border-style: none;
+    background: rgb(208, 218, 218);
+}
+.setting{
+    margin-left: 35px;
+}
+.explore-main-content{
+    border-right: 0.2px solid  rgb(231, 235, 236);
+    border-left: 0.2px solid  rgb(231, 235, 236);
+    height: 110%;
+}
+.explore-follow-content{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 345px;
+    
+}
+.explore-image{
+    margin-top: 65px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.image-text{
+    margin-top: -100px;
+    text-align: right;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+.explore-inner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 570px;
+    padding: 15px;
+}
+.explore-line{
+    border-bottom:  0.2px solid  rgb(231, 235, 236);
+}
+.explore-head{
+    padding-top: 10px;
+    font-size: 19px;
+    color: #14174A;
+}
+.explore-inner-flex{
+    display: flex;
+    border:  0.2px solid  rgb(231, 235, 236);
+    border-radius: 20px;
+    width: 575px;
+    margin: 0 auto;
+}
+.inner-image{
+    border-radius: 20px  0px 0px 20px;
+}
+.inner-flex-content{
+    margin-top: 5.5%;
+    margin-left: 2%;
+    line-height: 15px;
+    align-items: center;
+    font-size: 13.5px;
+}
+.trend-in-nigeria{
+    font-size: 14px;
+    color: #657786;
+}
+.second-text{
+    font-size: 15px;
+    color: #14174A;
+    font-weight: bolder;
+    margin: 5px;
+}
+h4{
+    margin: 0;
+    padding: 13px;
+}
+.content-footer{
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 14px;
+}
+.show-more{
+    color: rgba(29,161,242,1.00);
+    padding: 15px;
+    font-weight: bold;
+}
+.explore-search-border{
+    border: 0.2px solid  rgb(216, 223, 224);
+    width: 85%;
+    height: 31px;
+    border-radius: 50px;
+    margin-left: 17px;
+    background: rgb(208, 218, 218);   
+}
+@media only screen and (max-width : 992px) {
+    .explore-follow-content{
+        display: none;
+    }
+    .explore-main-content{
+        width: 65%;
+    }
+   .explore-search-border{
+       width: 85%
+   }
+   .search-input{
+       width: 65%;
+   }
+   .media-size-search{
+       width: 65%;
+   }
+   .setting{
+       margin-left:25px;
+       margin-right: 10px;
+   }
+   .explore-inner-content{
+       width: 580px;
+   }
+}

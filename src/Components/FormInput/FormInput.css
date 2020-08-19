@@ -1,0 +1,12 @@
+.form{
+    width:470px;
+    height: 38px;
+    border-radius: 50px;
+outline: none;
+}
+/* ::-webkit-input-placeholder { font-size: 5px ! important; color: gray;} */
+.search{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
